@@ -1,30 +1,42 @@
-💍 Lista de Presentes — Ana Luiza & Lucas
-Este é um projeto autoral desenvolvido para gerenciar a lista de presentes do meu casamento. O objetivo foi criar uma experiência personalizada, fluida e elegante para os convidados, fugindo das plataformas de listas genéricas e aplicando conceitos modernos de desenvolvimento web.
+# 💍 Site de Casamento
 
-🚀 Funcionalidades
-Experiência Imersiva: Modal de boas-vindas com orientações e trilha sonora automática (Ordinary - Alex Warren).
+Este projeto é um site desenvolvido para um casal de amigos com o objetivo de compartilhar informações importantes sobre a cerimônia e facilitar a interação com os convidados.
 
-Gestão de Itens: Integração com Firebase para exibição dinâmica de produtos.
+---
 
-Fluxo de Presente: Ao escolher um item, o sistema solicita o nome do convidado e a quantidade, redirecionando-o para a loja e automatizando uma mensagem de confirmação via WhatsApp.
+## ✨ Sobre o projeto
 
-Controle de Áudio: Player flutuante customizado com controle de volume e mute.
+O site reúne, de forma simples e elegante, tudo o que os convidados precisam saber sobre o casamento:
 
-Seção de Informações: Detalhes sobre a cerimônia em Barbacena-MG, endereço de entrega e chave PIX integrada.
+- 📅 Informações sobre a cerimônia  
+- 📍 Local onde será realizado  
+- 💌 Mensagem especial do casal  
+- 🎁 Lista de presentes com redirecionamento para compra  
+- 💳 Chave PIX para contribuições  
+- 🎵 Música de fundo para uma experiência mais envolvente  
 
-🛠️ Tecnologias Utilizadas
-Frontend: HTML5, CSS3 (com foco em tipografia elegante) e JavaScript.
+A proposta é oferecer uma experiência agradável, intuitiva e emocional para os convidados.
 
-Design: Estética inspirada em design editorial (Vogue/Cinemático), utilizando as fontes Playfair Display e Montserrat.
+---
 
-🎨 Interface
-O projeto conta com uma interface minimalista e responsiva, focada na usabilidade:
+## 🚀 Funcionalidades
 
-Header: Identidade visual do casal com fotos de estilo Polaroid.
+- Exibição de detalhes da cerimônia (data, horário e local)
+- Seção com mensagem personalizada do casal
+- Lista de presentes com links externos
+- Exibição de chave PIX
+- Reprodução de música de fundo
+- Layout responsivo (mobile e desktop)
 
-Mensagem de Boas-Vindas: Texto afetivo centralizado com detalhes decorativos.
+---
 
-Cards de Presentes: Grid organizado com imagens dos produtos e botões de ação direta.
+## 🛠️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+
+---
 
 <img width="1869" height="989" alt="image" src="https://github.com/user-attachments/assets/5be3d8e8-90b0-40ab-a2a3-cdaf62d5978d" />
 
