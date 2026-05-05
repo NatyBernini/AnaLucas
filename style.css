@@ -34,11 +34,13 @@ header {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.8rem;
-    margin-top: 0;
     margin-bottom: 5px;
     font-style: italic;
     color: #4a4a4a;
+
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .subtitle {
@@ -344,4 +346,97 @@ footer {
     cursor: pointer;
     font-weight: bold;
     margin-top: 15px;
+}
+
+/* Estilização da Mensagem de Boas-Vindas */
+.mensagem-boas-vindas {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.mensagem-content {
+    background-color: #fdfdfd; /* Um branco levemente off-white */
+    padding: 30px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+/* Detalhe decorativo opcional */
+.mensagem-content::before {
+    content: "♥";
+    color: #d4a373; /* Um tom de dourado/nude que combina com casamentos */
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 0 10px;
+}
+
+.mensagem-boas-vindas p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.mensagem-enfase {
+    font-style: italic;
+    color: #333 !important;
+    font-weight: 500;
+}
+
+.assinatura {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem !important;
+    margin-top: 30px;
+    color: #333 !important;
+}
+
+.assinatura span {
+    font-style: italic;
+    display: block;
+    margin-top: 5px;
+}
+
+.audio-control-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.btn-audio-float {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.volume-slider {
+    width: 0; /* Começa escondido */
+    overflow: hidden;
+    transition: width 0.3s ease;
+    cursor: pointer;
+    margin-left: 0;
+    accent-color: #d4a373; /* Cor que combina com o tema */
+}
+
+.audio-control-container:hover .volume-slider {
+    width: 80px; /* Aparece ao passar o mouse */
+    margin-left: 10px;
 }

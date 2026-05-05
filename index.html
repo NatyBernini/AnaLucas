@@ -1,67 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Presentes - Ana Luiza & Lucas</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
- <header>
-    <div class="tag-container">
-        <img src="img/tag.jpeg" alt="Tag Casamento Ana e Lucas" class="tag-imagem">
-    </div>
-    
-    <h1>Ana & Lucas</h1>
-
-    <div class="igreja-container">
-        <div class="igreja-wrapper">
-            <img src="img/igreja.jpeg" alt="Igreja São Miguel Arcanjo" class="igreja-ilustracao">
-            
-            <div class="igreja-info">
-                <h3>A Cerimônia</h3>
-                <p><strong>Data:</strong> Sábado, 24 de Outubro de 2026</p>
-                <p><strong>Horário:</strong> 15:00 horas</p>
-                <p><strong>Local:</strong> Igreja São Miguel Arcanjo</p>
-                <p class="endereco">Fazenda São Miguel, Atalho, s/n<br>
-                João Paulo II, Barbacena - MG</p>
-            </div>
+    <header>
+        <div class="tag-container">
+            <img src="img/tag.jpeg" alt="Tag Casamento Ana e Lucas" class="tag-imagem">
         </div>
-    </div>
 
- <div class="entrega-container">
-        <div class="entrega-box">
-            <p class="entrega-titulo">Deseja enviar o presente?</p>
-            <p><strong>Endereço de Entrega:</strong></p>
-            <p>Rua José Tafuri de Melo, nº 50</p>
-            <p>Bairro Grogotó - Barbacena/MG</p>
-            <p>CEP: 36202-371</p>
-            
-            <div class="pix-divider">ou</div>
+        <h1>Ana Luiza & Lucas</h1>
+     <!-- TEXTO ORGANIZADO E ESTILIZADO -->
+    <section class="mensagem-boas-vindas">
+        <div class="mensagem-content">
+            <p>
+                Preparamos nossa lista de presentes com muito carinho para quem deseja nos presentear nesse momento tão especial. 
+                Pensamos em cada detalhe com amor, priorizando itens que vão nos ajudar a construir nosso novo lar e iniciar essa nova fase juntos.
+            </p>
+            <p class="mensagem-enfase">
+                Mas queremos deixar claro que a presença de vocês em nosso grande dia já é o maior presente que poderíamos receber.
+            </p>
+            <p>
+                Sintam-se à vontade para escolher algo da lista apenas se desejarem — o mais importante para nós é compartilhar esse momento ao lado de pessoas tão especiais.
+            </p>
+            <p class="assinatura">Com amor, <br> <span>Ana Luiza e Lucas</span></p>
+        </div>
+    </section>
 
-            <p class="entrega-titulo">Presente em Dinheiro (PIX)</p>
-            <p>Chave CPF:</p>
-            <div class="pix-copy-wrapper">
-                <span id="pix-chave">023.562.346-67</span>
-                <button onclick="copiarPix()" class="btn-copy">Copiar Chave</button>
-            </div>
-            <p id="msg-copiado" style="display:none; color: green; font-size: 0.8rem; margin-top: 5px;">Copiado!</p>
-            <!-- ... dentro da entrega-box, logo abaixo do PIX ... -->
-            <div class="whatsapp-aviso">
-                <p><strong>⚠️ Importante:</strong> Após comprar um item ou realizar o PIX, por favor nos avise no WhatsApp para que possamos atualizar a lista!</p>
-                <div class="contatos-whats">
-                    <a href="https://wa.me/5532998208850" target="_blank" class="btn-whats">Falar com Ana</a>
-                    <a href="https://wa.me/553298308169" target="_blank" class="btn-whats">Falar com Lucas</a>
+        <div class="igreja-container">
+            <div class="igreja-wrapper">
+                <img src="img/igreja.jpeg" alt="Igreja São Miguel Arcanjo" class="igreja-ilustracao">
+
+                <div class="igreja-info">
+                    <h3>A Cerimônia</h3>
+                    <p><strong>Data:</strong> Sábado, 24 de Outubro de 2026</p>
+                    <p><strong>Horário:</strong> 15:00 horas</p>
+                    <p><strong>Local:</strong> Igreja São Miguel Arcanjo</p>
+                    <p class="endereco">Fazenda São Miguel, Atalho, s/n<br>
+                        João Paulo II, Barbacena - MG</p>
                 </div>
             </div>
         </div>
-    </div>
 
-    <p class="subtitle">Nossa Lista de Presentes</p>
-    <div class="divider"></div>
-</header>
+        <div class="entrega-container">
+            <div class="entrega-box">
+                <p class="entrega-titulo">Deseja enviar o presente?</p>
+                <p><strong>Endereço de Entrega:</strong></p>
+                <p>Rua José Tafuri de Melo, nº 50</p>
+                <p>Bairro Grogotó - Barbacena/MG</p>
+                <p>CEP: 36202-371</p>
+
+                <div class="pix-divider">ou</div>
+
+                <p class="entrega-titulo">Presente em Dinheiro (PIX)</p>
+                <p>Chave CPF:</p>
+                <div class="pix-copy-wrapper">
+                    <span id="pix-chave">023.562.346-67</span>
+                    <button onclick="copiarPix()" class="btn-copy">Copiar Chave</button>
+                </div>
+                <p id="msg-copiado" style="display:none; color: green; font-size: 0.8rem; margin-top: 5px;">Copiado!</p>
+                <!-- ... dentro da entrega-box, logo abaixo do PIX ... -->
+                <div class="whatsapp-aviso">
+                    <p><strong>⚠️ Importante:</strong> Após comprar um item ou realizar o PIX, por favor nos avise no
+                        WhatsApp para que possamos atualizar a lista!</p>
+                    <div class="contatos-whats">
+                        <a href="https://wa.me/5532998208850" target="_blank" class="btn-whats">Falar com Ana</a>
+                        <a href="https://wa.me/553298308169" target="_blank" class="btn-whats">Falar com Lucas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="subtitle">Nossa Lista de Presentes</p>
+        <div class="divider"></div>
+    </header>
+    <!-- Controle de Áudio Flutuante -->
+    <div class="audio-control-container">
+        <button onclick="toggleMute()" id="btn-audio" class="btn-audio-float">
+            <span id="audio-icon">🔊</span>
+        </button>
+        <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5" class="volume-slider">
+    </div>
 
     <main class="container">
         <section id="lista-presentes" class="grid-presentes">
@@ -72,14 +100,20 @@
     <footer>
         <p>Com carinho, Ana e Lucas</p>
     </footer>
-<!-- Modal Informativo -->
-<div id="modal-aviso" class="modal-overlay">
-    <div class="modal-content">
-        <h3>Aviso Importante 🎁</h3>
-        <p>Ao escolher um presente, você será redirecionado para o site de compra. Após finalizar, pedimos que <strong>confirme os itens e seu nome</strong> para que possamos atualizar nossa lista via WhatsApp.</p>
-        <button onclick="fecharModal()" class="btn-entendido">Entendi!</button>
+    <!-- Modal Informativo -->
+    <div id="modal-aviso" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Aviso Importante 🎁</h3>
+            <p>Ao escolher um presente, você será redirecionado para o site de compra. Após finalizar, pedimos que
+                <strong>confirme os itens e seu nome</strong> para que possamos atualizar nossa lista via WhatsApp.</p>
+            <button onclick="fecharModal()" class="btn-entendido">Entendi!</button>
+        </div>
     </div>
-</div>
+    <!-- O atributo 'loop' faz a música recomeçar quando acabar -->
+    <audio id="musica-tema" loop>
+        <source src="audio/ordinary.mpeg" type="audio/mpeg">
+    </audio>
     <script src="script.js"></script>
 </body>
+
 </html>
