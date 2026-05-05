@@ -7,7 +7,7 @@ const presentes = [
     },
 {
         nome: "kit enxoval queen branco",
-        imagem: "img/enxoval.png", // Nome do arquivo na sua pasta img
+        imagem: "img/Screenshot_20260505_105544_Shopee.jpg", // Nome do arquivo na sua pasta img
         link: "https://br.shp.ee/VbtNLKvw"
     },
     {
