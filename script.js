@@ -93,6 +93,61 @@ const presentes = [
         imagem: "img/18.png",
         link: "https://shopee.com.br/product/513742166/22494447662?d_id=acce1&uls_trackid=55ilagso01k0&utm_content=27xTz6wknh29kybRSduZCndY59A7"
     },
+                     {
+        nome: "Cj 6 Xícaras Café em Porcelana Com Pires Paddy Branco 90Ml - Wolff Original",
+        imagem: "img/19.png",
+        link: "https://shopee.com.br/product/838877334/58205988061?d_id=acce1&uls_trackid=55ilckd000k0&utm_content=27xTz6wknh79cecxMbWKzgFza8ZD"
+    },
+                         {
+        nome: "Jogo 12 Potes Hermetico Vidro Mantimentos Tampa Bambu",
+        imagem: "img/20.png",
+        link: "https://shopee.com.br/product/1383448342/22194327737?d_id=acce1&uls_trackid=55ilcq1c00l4&utm_content=27xTz6wknh9KBWrBQC4NCAwcVQjq"
+    },
+                             {
+        nome: "Kit de 6 até 12 Potes de Vidro 640ml - 370 ml Hermético Marmita Fit com Tampa 4 Travas Premium",
+        imagem: "img/21.png",
+        link: "https://shopee.com.br/product/332059670/42122939888?d_id=acce1&uls_trackid=55ilcto900k0&utm_content=27xTz6wknhBp7MMwrfrkb7C85kj1"
+    },
+                                 {
+        nome: "Suporte de Panela Dobrável em Madeira Formato de Árvore | Suporte para Panelas e Pratos Quentes | Trivet de Bambu",
+        imagem: "img/22.png",
+        link: "https://shopee.com.br/product/1001240198/22099229942?d_id=acce1&uls_trackid=55ild1hh03jo&utm_content=27xTz6wknhE4aoB3RFkbYm48hTZ9"
+    },
+                                     {
+        nome: "Porta Alho Feito de Cerâmica Premium Nome em Alto Relevo Tendencia Varias Cores",
+        imagem: "img/23.png",
+        link: "https://shopee.com.br/product/1362957434/58204156362?d_id=acce1&uls_trackid=55ild7va00jo&utm_content=27xTz6wknhHJxC6ETj214CMFr4i3"
+    },
+                                         {
+        nome: "Grill Sanduicheira Cadence SAN400 Elétrica Chapa Misteira Tostex Tostequeira Hambúrguer Click 127v",
+        imagem: "img/24.png",
+        link: "https://shopee.com.br/Grill-Sanduicheira-Cadence-SAN400-El%C3%A9trica-Chapa-Misteira-Tostex-Tostequeira-Hamb%C3%BArguer-Click-127v-i.1512106181.54505363986?extraParams=%7B%22display_model_id%22%3A340489678131%2C%22model_selection_logic%22%3A3%7D&sp_atk=5b26b35a-edcc-470d-bb69-e37ee1ea556f&xptdk=5b26b35a-edcc-470d-bb69-e37ee1ea556f"
+    },
+                                             {
+        nome: "Liquidificador Philco 1400W 3L 12 Velocidades Inox PLQ2100PI",
+        imagem: "img/25.png",
+        link: "https://shopee.com.br/Liquidificador-Philco-1400W-3L-12-Velocidades-Inox-PLQ2100PI-i.811034337.23996064177?extraParams=%7B%22display_model_id%22%3A228737738369%2C%22model_selection_logic%22%3A3%7D&sp_atk=82dd265f-b5bd-4560-bbe7-786d4167a004&xptdk=82dd265f-b5bd-4560-bbe7-786d4167a004"
+    },
+                                                {
+        nome: "Panela de Pressão Elétrica Electrolux por Rita Lobo 6L Preta Experience Digital (PCC20)",
+        imagem: "img/26.png",
+        link: "https://shopee.com.br/Panela-de-Press%C3%A3o-El%C3%A9trica-Electrolux-por-Rita-Lobo-6L-Preta-Experience-Digital-(PCC20)-i.1526836548.22693991409?extraParams=%7B%22display_model_id%22%3A189175059878%2C%22model_selection_logic%22%3A3%7D"
+    },
+                                                    {
+        nome: "Kit Petisqueira Em Bambu + Facas E Garfos Tábua Ecoeden",
+        imagem: "img/27.png",
+        link: "https://shopee.com.br/product/1602415544/58251742817?d_id=acce1&uls_trackid=55ilfudp01jo&utm_content=27xTz6wknhSmhKsD3oybfCQP117d"
+    },
+                                                        {
+        nome: "Kit 2 Dispenser Hermético 3L com Dosador para Cozinha Ou Lavanderia",
+        imagem: "img/28.png",
+        link: "https://shopee.com.br/product/1502286361/20399842507?d_id=acce1&uls_trackid=55ilg35600kl&utm_content=27xTz6wknhWSFtMQ7r5mJhuaE4x7"
+    },
+                                                            {
+        nome: "Manteigueira de Porcelana Branca com Tampa de Bambu e Espátula Elegante KL-PJ03629-S",
+        imagem: "img/29.png",
+        link: "https://shopee.com.br/product/328538026/58258599520?d_id=acce1&uls_trackid=55ilg8pa01kn&utm_content=27xTz6wknhZU9w9FpA86fzzSrAWK"
+    },
     // Adicione mais itens seguindo o padrão acima
 ];
 
@@ -117,5 +172,18 @@ function renderizarPresentes() {
     });
 }
 
+// Função para fechar o modal inicial
+function fecharModal() {
+    document.getElementById('modal-aviso').style.display = 'none';
+}
+
+function copiarPix() {
+    const chave = document.getElementById('pix-chave').innerText;
+    navigator.clipboard.writeText(chave).then(() => {
+        const msg = document.getElementById('msg-copiado');
+        msg.style.display = 'block';
+        setTimeout(() => { msg.style.display = 'none'; }, 2000);
+    });
+}
 // Inicia a renderização ao carregar a página
 document.addEventListener('DOMContentLoaded', renderizarPresentes);
