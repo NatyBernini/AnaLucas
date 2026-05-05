@@ -5,6 +5,11 @@ const presentes = [
         imagem: "img/jogo-jantar.png", // Nome do arquivo na sua pasta img
         link: "https://s.shopee.com.br/7fWPNBHAHt"
     },
+{
+        nome: "kit enxoval queen branco",
+        imagem: "img/enxoval.png", // Nome do arquivo na sua pasta img
+        link: "https://br.shp.ee/VbtNLKvw"
+    },
     {
         nome: "Jogo De 4 Travessas Oxford Ryo Maresia",
         imagem: "img/1.png",
