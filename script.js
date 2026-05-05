@@ -150,7 +150,7 @@ const presentes = [
     },
     {
         nome: "Kit 4 Super Panos De Chão Grandes Em Microfibra Panão 80x50",
-        imagem: "img/30.png",
+        imagem: "img/39.png",
         link: "https://s.shopee.com.br/5flL0NgYyq"
     },
     {
@@ -158,12 +158,7 @@ const presentes = [
         imagem: "img/30.png",
         link: "https://shopee.com.br/product/1333478822/22393835046?d_id=acce1&uls_trackid=55ilj36602k0&utm_content=27xTz6wknhgP85hLspNNENFxagLX"
     },
-        {
-        nome: "Porta Ovos Acrílico Organizador Geladeira Gaveteiro Dupla Capacidade Cor Branca Envio Imediato",
-        imagem: "img/30.png",
-        link: "https://shopee.com.br/product/1333478822/22393835046?d_id=acce1&uls_trackid=55ilj36602k0&utm_content=27xTz6wknhgP85hLspNNENFxagLX"
-    },
-            {
+    {
         nome: "Belifou Kit 6 Pote hermético 200ML Pote De Vidro com Tampa bambu pote de mantimentos para cozinha",
         imagem: "img/31.png",
         link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
@@ -202,6 +197,41 @@ const presentes = [
         nome: "Jogo De Toalha Banhão Gigante Buddemeyer Fio Penteado Canelado 4pçs Algodão Macio",
         imagem: "img/38.png",
         link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
+    },
+                                            {
+        nome: "Saladeira Bowl Ryo Maresia 1,6 Litros 26 cm Oxford Porcelana",
+        imagem: "img/40.png",
+        link: "https://shopee.com.br/product/389126594/22897548128?d_id=acce1&uls_trackid=55ilqe2n00l4&utm_content=27xTz6wknkWgat1P9w9nkmJHbCmD"
+    },
+                                                {
+        nome: "Conjunto de Utensílios de Bambu de 06 Peças",
+        imagem: "img/41.png",
+        link: "https://shopee.com.br/product/1526836548/23094041212?d_id=acce1&uls_trackid=55ilqiau01kl&utm_content=27xTz6wknkkm1kxw8JRZj1WczBdy"
+    },
+                                                    {
+        nome: "Porta Pães Com Tampa Retrátil de Bambu Ecokitchen Mimo Style",
+        imagem: "img/42.png",
+        link: "https://shopee.com.br/product/801047504/19117762707?d_id=acce1&uls_trackid=55ilqlfm020t&utm_content=27xTz6wknkpFuvtCxyLuUw7khWAs"
+    },
+                                                        {
+        nome: "Kit Jogo Americano Sousplat Bordado Suplat de Mesa Posta Redondo/Retangular e Guardanapos",
+        imagem: "img/43.png",
+        link: "https://shopee.com.br/product/1314421697/22194388384?d_id=acce1&uls_trackid=55ilqpnf00k6&utm_content=27xTz6wknkzkcSe2Uz6vk9nDLu6w"
+    },
+                                                            {
+        nome: "Porta Frios Bambu Duplo Com Divisorias Tampa de Acrilico",
+        imagem: "img/44.png",
+        link: "https://shopee.com.br/product/1504918650/21398149079?d_id=acce1&uls_trackid=55ilqube01oi&utm_content=27xTz6wknmQScvxPhkL3vuTQ7A3h"
+    },
+                                                                {
+        nome: "Multiprocessador Philco 1700W 9 em 1 Preto PMP1600P",
+        imagem: "img/45.png",
+        link: "https://shopee.com.br/product/811034337/23130472127?d_id=acce1&uls_trackid=55ilr3al00oi&utm_content=27xTz6wknmcX796vujMvBfGwgXeF"
+    },
+                                                                    {
+        nome: "Kit Via Aroma Sabonete Liquido com Difusor de VAretas e Bandeja Decorativa Espelhada",
+        imagem: "img/46.png",
+        link: "https://shopee.com.br/product/407409935/23194681828?d_id=acce1&uls_trackid=55ilrlqr03k0&utm_content=27xTz6wknn3FtvPDdUaYJycpbCSj"
     },
     // Adicione mais itens seguindo o padrão acima
 ];
