@@ -44,8 +44,8 @@ A proposta é oferecer uma experiência agradável, intuitiva e emocional para o
 
 <img width="1873" height="990" alt="image" src="https://github.com/user-attachments/assets/138febd7-ad4a-4d33-ac56-0b8fb29167e0" />
 
-<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/ca16661e-e55a-4207-8a99-b2950fc41208" />
-
-<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/10dc83f2-4ae2-431d-96f1-e78eac5b781a" />
+<img height="900" alt="image" src="https://github.com/user-attachments/assets/c759a6c0-d323-4482-bcb0-f87bd4ac7fd3" />
+<img  height="500" alt="image" src="https://github.com/user-attachments/assets/ca16661e-e55a-4207-8a99-b2950fc41208" />
+<img  height="500" alt="image" src="https://github.com/user-attachments/assets/10dc83f2-4ae2-431d-96f1-e78eac5b781a" />
 
 
