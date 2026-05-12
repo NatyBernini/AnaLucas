@@ -5,11 +5,6 @@ const presentes = [
         imagem: "img/jogo-jantar.png", // Nome do arquivo na sua pasta img
         link: "https://s.shopee.com.br/7fWPNBHAHt"
     },
-{
-        nome: "kit enxoval queen branco",
-        imagem: "img/Screenshot_20260505_105544_Shopee.jpg", // Nome do arquivo na sua pasta img
-        link: "https://br.shp.ee/VbtNLKvw"
-    },
     {
         nome: "Jogo De 4 Travessas Oxford Ryo Maresia",
         imagem: "img/1.png",
@@ -238,7 +233,26 @@ const presentes = [
         imagem: "img/46.png",
         link: "https://shopee.com.br/product/407409935/23194681828?d_id=acce1&uls_trackid=55ilrlqr03k0&utm_content=27xTz6wknn3FtvPDdUaYJycpbCSj"
     },
-    // Adicione mais itens seguindo o padrão acima
+    {
+        nome: "kit enxoval queen branco",
+        imagem: "img/Screenshot_20260505_105544_Shopee.jpg",
+        link: "https://br.shp.ee/VbtNLKvw"
+    },
+        {
+        nome: "Aparelho de Fondue",
+        imagem: "img/47.png",
+        link: "https://shopee.com.br/product/332059670/19899299433?exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QABpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMRoz0ZUjQw0QlRa--FjB0AKnHQPF7xv4DyGj9-GQwqn4zSdB6gztmw7ebmtsZs9FPJxlVqctc57WUE3IRqmNpcGhlcnRleHTElwAAAAzxhwXW_K0yYjJ45sNMMT0AcbT1JOiHFUUtqgbzZQMeryzMpoJ0WtkR_ayVpAwVL8D9T84vxKtTlToKDV9vsoUnfbP-R9yv8Zo2RjovstcDhPM_7Z9iR0JZBmcoZa5acGbY0-MlAzqBVgjrpBHOg7rfMTDXSsBhjuWlIGPB3jjWZsx4xBZk9kwnOuWsvRrspLsnJx8&mmp_pid=an_18389281073&share_channel_code=1&uls_trackid=55kl4e1500k0&utm_campaign=id_TfnFzDUnM3&utm_content=----&utm_medium=affiliates&utm_source=an_18389281073&utm_term=evzkt84pct9u"
+    },
+            {
+        nome: "Varal",
+        imagem: "img/48.png",
+        link: "https://shopee.com.br/product/1504788346/18398346899?exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QABpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMRoz0ZUjQw0QlRa--FjB0AKnHQPF7xv4DyGj9-GQwqn4zSdB6gztmw7ebmtsZs9FPJxlVqctc57WUE3IRqmNpcGhlcnRleHTEmQAAAAxGP8AjsJZGzuSpiETMZPLkBQaZXNfqclzhlh4mGlG41Jj3BX6hEK05xy2_03XZEeRV1bFJxO58QuGx0KaNHcnrdW3kbChuQE3eht1AXus9l2ps_WqopTf352O1MEvWuSEFe9vm4QvHRHmtpw4YNOC915g-7wahZ4SkbNFBfIw7kHu7XwOrUVtn0YyznR_i63DD4f3EsA&mmp_pid=an_18389281073&share_channel_code=1&uls_trackid=55kl4n4a00l0&utm_campaign=id_7Yv9iiwaGl&utm_content=----&utm_medium=affiliates&utm_source=an_18389281073&utm_term=evzm1o833d2w"
+    },
+                {
+        nome: "Kit Enxoval Lisboa",
+        imagem: "img/49.png",
+        link: "https://shopee.com.br/product/699706041/42864344384?d_id=5133c&uls_trackid=55kl4tn801qr&utm_content=2iaHH7idr9LUDuVarke6Aad8VyTm"
+    },
 ];
 
 const container = document.getElementById('lista-presentes');
