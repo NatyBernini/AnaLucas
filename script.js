@@ -1,6 +1,6 @@
 // Array de objetos contendo os dados de cada presente
 const presentes = [
-     {
+    {
         nome: "Aparelho de Jantar e Chá Porcelana 20 peças Ryo Maresia Jogo de Pratos e Xícaras Oxford",
         imagem: "img/jogo-jantar.png", // Nome do arquivo na sua pasta img
         link: "https://s.shopee.com.br/7fWPNBHAHt"
@@ -150,110 +150,171 @@ const presentes = [
     },
     {
         nome: "Kit 4 Super Panos De Chão Grandes Em Microfibra Panão 80x50",
-        imagem: "img/39.png",
+        imagem: "img/30.png",
         link: "https://s.shopee.com.br/5flL0NgYyq"
     },
     {
-        nome: "Porta Ovos Acrílico Organizador Geladeira Gaveteiro Dupla Capacidade Cor Branca Envio Imediato",
-        imagem: "img/30.png",
-        link: "https://shopee.com.br/product/1333478822/22393835046?d_id=acce1&uls_trackid=55ilj36602k0&utm_content=27xTz6wknhgP85hLspNNENFxagLX"
-    },
-    {
-        nome: "Belifou Kit 6 Pote hermético 200ML Pote De Vidro com Tampa bambu pote de mantimentos para cozinha",
+        nome: "Balde Dobrável Retrátil em Silicone Flexível 26L e 10L",
         imagem: "img/31.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                {
-        nome: "Aspirador de Pó Vertical com Fio Electrolux 1100W 2 em 1 Filtro HEPA Preto (STK12)",
-        imagem: "img/32.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                    {
-        nome: "Parafusadeira Furadeira 20v Sem Fio Com Maleta Jogo Broca e Bits PFV 238 Vonder",
-        imagem: "img/33.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                        {
-        nome: "Jogo 6 Taças Vinho Tinto Em Cristal Bohemia 650 Ml Titanium Cor Transparente",
-        imagem: "img/34.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                            {
-        nome: "Jogo 12 / 06 Taça Vidro Cristalino Buffet 186ML Champanhe Espumante Vinho Branco Bar Restaurante",
-        imagem: "img/35.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                                {
-        nome: "Jogo De 12 Copos 320ml Vidro Bali Quadrado Luxo Transparente",
-        imagem: "img/36.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                                    {
-        nome: "Jogo de Toalhas Buddemeyer Vision Dual Air Gigante Branco 5 peças",
-        imagem: "img/37.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                                        {
-        nome: "Jogo De Toalha Banhão Gigante Buddemeyer Fio Penteado Canelado 4pçs Algodão Macio",
-        imagem: "img/38.png",
-        link: "https://shopee.com.br/product/1224363395/22098063316?d_id=acce1&uls_trackid=55ilj8so01kl&utm_content=27xTz6wknhivu4vEQF5hHM8LcrK1"
-    },
-                                            {
-        nome: "Saladeira Bowl Ryo Maresia 1,6 Litros 26 cm Oxford Porcelana",
-        imagem: "img/40.png",
-        link: "https://shopee.com.br/product/389126594/22897548128?d_id=acce1&uls_trackid=55ilqe2n00l4&utm_content=27xTz6wknkWgat1P9w9nkmJHbCmD"
-    },
-                                                {
-        nome: "Conjunto de Utensílios de Bambu de 06 Peças",
-        imagem: "img/41.png",
-        link: "https://shopee.com.br/product/1526836548/23094041212?d_id=acce1&uls_trackid=55ilqiau01kl&utm_content=27xTz6wknkkm1kxw8JRZj1WczBdy"
-    },
-                                                    {
-        nome: "Porta Pães Com Tampa Retrátil de Bambu Ecokitchen Mimo Style",
-        imagem: "img/42.png",
-        link: "https://shopee.com.br/product/801047504/19117762707?d_id=acce1&uls_trackid=55ilqlfm020t&utm_content=27xTz6wknkpFuvtCxyLuUw7khWAs"
-    },
-                                                        {
-        nome: "Kit Jogo Americano Sousplat Bordado Suplat de Mesa Posta Redondo/Retangular e Guardanapos",
-        imagem: "img/43.png",
-        link: "https://shopee.com.br/product/1314421697/22194388384?d_id=acce1&uls_trackid=55ilqpnf00k6&utm_content=27xTz6wknkzkcSe2Uz6vk9nDLu6w"
-    },
-                                                            {
-        nome: "Porta Frios Bambu Duplo Com Divisorias Tampa de Acrilico",
-        imagem: "img/44.png",
-        link: "https://shopee.com.br/product/1504918650/21398149079?d_id=acce1&uls_trackid=55ilqube01oi&utm_content=27xTz6wknmQScvxPhkL3vuTQ7A3h"
-    },
-                                                                {
-        nome: "Multiprocessador Philco 1700W 9 em 1 Preto PMP1600P",
-        imagem: "img/45.png",
-        link: "https://shopee.com.br/product/811034337/23130472127?d_id=acce1&uls_trackid=55ilr3al00oi&utm_content=27xTz6wknmcX796vujMvBfGwgXeF"
-    },
-                                                                    {
-        nome: "Kit Via Aroma Sabonete Liquido com Difusor de VAretas e Bandeja Decorativa Espelhada",
-        imagem: "img/46.png",
-        link: "https://shopee.com.br/product/407409935/23194681828?d_id=acce1&uls_trackid=55ilrlqr03k0&utm_content=27xTz6wknn3FtvPDdUaYJycpbCSj"
+        link: "https://s.shopee.com.br/qg5GC7NC4"
     },
     {
-        nome: "kit enxoval queen branco",
-        imagem: "img/Screenshot_20260505_105544_Shopee.jpg",
-        link: "https://br.shp.ee/VbtNLKvw"
+        nome: "Kit 5 ou Kit 6 Saco Para Lavar Roupas Na Maquina",
+        imagem: "img/32.png",
+        link: "https://s.shopee.com.br/7pppb6tKZr"
     },
-        {
-        nome: "Aparelho de Fondue",
+    {
+        nome: "Jogo de Assadeiras Tramontina Brasil em Alumínio com Revestimento Antiaderente Starflon Max 3 Peças",
+        imagem: "img/32.png",
+        link: "https://s.shopee.com.br/1qYcSBq6nd"
+    },
+    {
+        nome: "Kit 2 Formas Assadeira de Pizza Redonda Antiaderente",
+        imagem: "img/34.png",
+        link: "https://s.shopee.com.br/gMf49k5k6"
+    },
+    {
+        nome: "Espátula para Bolo Tortas Dourado para Servi com Serrilha",
+        imagem: "img/35.png",
+        link: "https://s.shopee.com.br/4fsnpWhevD"
+    },
+    {
+        nome: "Prato de Cristal Porta Bolo Boleira Queijeira",
+        imagem: "img/36.png",
+        link: "https://s.shopee.com.br/70GibuaozX"
+    },
+    {
+        nome: "Cesta Redonda Wolff Papel com Alça e Forro 24cm Organização e Decor",
+        imagem: "img/37.png",
+        link: "https://s.shopee.com.br/4fsnpg7eXi"
+    },
+    {
+        nome: "Meleira Portal Mel Wolff 200ml",
+        imagem: "img/38.png",
+        link: "https://s.shopee.com.br/6L11ooV6oe"
+    },
+    {
+        nome: "Kit 10 Panos De Limpeza Microfibra",
+        imagem: "img/39.png",
+        link: "https://s.shopee.com.br/5q4lDwVni3"
+    },
+    {
+        nome: "KIT C/6 Pratos Fundo de Cerâmica Roma 22cm Branco",
+        imagem: "img/40.png",
+        link: "https://s.shopee.com.br/8Km6CYiUrl"
+    },
+    {
+        nome: "Conjunto 7 Peças Com 6 Taças Para Sobremesa Geneva",
+        imagem: "img/41.png",
+        link: "https://s.shopee.com.br/8V5WOucFbS"
+    },
+    {
+        nome: "Kit com 6 Taças para Sobremesa Diamond Fio de Ouro 180ml",
+        imagem: "img/42.png",
+        link: "https://s.shopee.com.br/3qJgqZHvE1"
+    },
+    {
+        nome: "Escorredor Pote Para Lavar Alimentos Praticidade Sua Cozinha",
+        imagem: "img/43.png",
+        link: "https://s.shopee.com.br/9Uy3b76w3B"
+    },
+    {
+        nome: "Belifou Kit 6 Pote hermético 200ML Pote De Vidro",
+        imagem: "img/44.png",
+        link: "https://s.shopee.com.br/2qR9f4R408"
+    },
+    {
+        nome: "Aspirador de Pó Vertical com Fio Electrolux 1100W",
+        imagem: "img/45.png",
+        link: "https://s.shopee.com.br/qg5HRBT0l"
+    },
+    {
+        nome: "Aspirador de Pó Vertical com Fio Electrolux 1100W",
+        imagem: "img/46.png",
+        link: "https://s.shopee.com.br/30kZrSjn0Z"
+    },
+    {
+        nome: "Jogo 6 Taças Vinho Tinto Em Cristal Bohemia 650 Ml",
         imagem: "img/47.png",
-        link: "https://shopee.com.br/product/332059670/19899299433?exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QABpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMRoz0ZUjQw0QlRa--FjB0AKnHQPF7xv4DyGj9-GQwqn4zSdB6gztmw7ebmtsZs9FPJxlVqctc57WUE3IRqmNpcGhlcnRleHTElwAAAAzxhwXW_K0yYjJ45sNMMT0AcbT1JOiHFUUtqgbzZQMeryzMpoJ0WtkR_ayVpAwVL8D9T84vxKtTlToKDV9vsoUnfbP-R9yv8Zo2RjovstcDhPM_7Z9iR0JZBmcoZa5acGbY0-MlAzqBVgjrpBHOg7rfMTDXSsBhjuWlIGPB3jjWZsx4xBZk9kwnOuWsvRrspLsnJx8&mmp_pid=an_18389281073&share_channel_code=1&uls_trackid=55kl4e1500k0&utm_campaign=id_TfnFzDUnM3&utm_content=----&utm_medium=affiliates&utm_source=an_18389281073&utm_term=evzkt84pct9u"
+        link: "https://s.shopee.com.br/7pppcStyhv"
     },
-            {
-        nome: "Varal",
+    {
+        nome: "Jogo 12 / 06 Taça Vidro Cristalino Buffet 186ML",
         imagem: "img/48.png",
-        link: "https://shopee.com.br/product/1504788346/18398346899?exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QABpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMRoz0ZUjQw0QlRa--FjB0AKnHQPF7xv4DyGj9-GQwqn4zSdB6gztmw7ebmtsZs9FPJxlVqctc57WUE3IRqmNpcGhlcnRleHTEmQAAAAxGP8AjsJZGzuSpiETMZPLkBQaZXNfqclzhlh4mGlG41Jj3BX6hEK05xy2_03XZEeRV1bFJxO58QuGx0KaNHcnrdW3kbChuQE3eht1AXus9l2ps_WqopTf352O1MEvWuSEFe9vm4QvHRHmtpw4YNOC915g-7wahZ4SkbNFBfIw7kHu7XwOrUVtn0YyznR_i63DD4f3EsA&mmp_pid=an_18389281073&share_channel_code=1&uls_trackid=55kl4n4a00l0&utm_campaign=id_7Yv9iiwaGl&utm_content=----&utm_medium=affiliates&utm_source=an_18389281073&utm_term=evzm1o833d2w"
+        link: "https://s.shopee.com.br/7Aa8pCXXpE"
     },
-                {
-        nome: "Kit Enxoval Lisboa",
+    {
+        nome: "Jogo de Toalhas Buddemeyer Vision Dual Air Gigante",
         imagem: "img/49.png",
-        link: "https://shopee.com.br/product/699706041/42864344384?d_id=5133c&uls_trackid=55kl4tn801qr&utm_content=2iaHH7idr9LUDuVarke6Aad8VyTm"
+        link: "https://s.shopee.com.br/4fsnqiIAPO"
+    },
+    {
+        nome: "Jogo De Toalha Banhão Gigante Buddemeyer Fio",
+        imagem: "img/50.png",
+        link: "https://s.shopee.com.br/4AwXFqUtAt"
+    },
+    {
+        nome: "Saladeira Bowl Ryo Maresia 1,6 Litros 26 cm Oxford Porcelana",
+        imagem: "img/51.png",
+        link: "https://s.shopee.com.br/9zuKCbps5c"
+    },
+    {
+        nome: "Conjunto de Utensílios de Bambu de 06 Peças",
+        imagem: "img/52.png",
+        link: "https://s.shopee.com.br/30kZrn2j8z"
+    },
+    {
+        nome: "Porta Pães Com Tampa Retrátil de Bambu Ecokitchen Mimo Style",
+        imagem: "img/53.png",
+        link: "https://s.shopee.com.br/5Ap4RnpoyV"
+    },
+    {
+        nome: "Kit Jogo Americano Sousplat Bordado Suplat de Mesa Posta",
+        imagem: "img/54.png",
+        link: "https://s.shopee.com.br/5flL2mdZTf"
+    },
+    {
+        nome: "Porta Frios Bambu Duplo Com Divisorias Tampa de Acrilico",
+        imagem: "img/55.png",
+        link: "https://s.shopee.com.br/9fHToB4INU"
+    },
+    {
+        nome: "Multiprocessador Philco 1700W 9 em 1 Preto PMP1600P",
+        imagem: "img/56.png",
+        link: "https://s.shopee.com.br/7VCzEFkWuJ"
+    },
+    {
+        nome: "Kit Via Aroma Sabonete Liquido com Difusor de VAretas e Bandeja Decorativa Espelhada",
+        imagem: "img/57.png",
+        link: "https://s.shopee.com.br/5L8UeJnANg"
+    },
+    {
+        nome: "Descascador de legumes e frutas Wood inox e cabo Plástico Textura Madeira",
+        imagem: "img/58.png",
+        link: "https://s.shopee.com.br/50Vexwpksj"
+    },
+    {
+        nome: "Lencol Micropercal 400 Fios Jogo De Cama Queen",
+        imagem: "img/59.png",
+        link: "https://s.shopee.com.br/16z0o87zp"
+    },
+    {
+        nome: "Jogo de Lençol Completo Percal Premium 400 Fios Ponto Palito Queen ",
+        imagem: "img/60.png",
+        link: "https://s.shopee.com.br/6fdsx8tNUK"
+    },
+    {
+        nome: "Tapete Porta de Entrada 40x75cm Capacho Lavável Interno/Externo",
+        imagem: "img/61.png",
+        link: "https://s.shopee.com.br/901njcgCJS"
+    },
+    {
+        nome: "Micro-ondas Electrolux 36L cor Inox Efficient",
+        imagem: "img/62.png",
+        link: "https://www.mercadolivre.com.br/micro-ondas-electrolux-36l-cor-inox-efficient-com-descongelamento-assistido-me36s/p/MLB19750516?matt_event_ts=1778017574555&matt_d2id=59cf57ab-d18d-4367-a1e7-f533fac2ca83&matt_tracing_id=86e2feed-d63d-4242-a3ef-aa31cc82c157#polycard_client=recommendations_home_affiliate-profile&reco_backend=item_decorator&reco_client=home_affiliate-profile&reco_item_pos=0&source=affiliate-profile&reco_backend_type=function&reco_id=05073f77-75c6-4281-a60d-c7a581f47dfe&tracking_id=6a3b7150-ec21-4f7f-8a45-651f453bba05&wid=MLB3640145261&sid=recos&c_id=/home/card-featured/element&c_uid=db3609c4-eeea-4236-b62d-a00c56de7800"
     },
 ];
+
 
 const container = document.getElementById('lista-presentes');
 
