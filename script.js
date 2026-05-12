@@ -313,6 +313,12 @@ const presentes = [
         imagem: "img/62.png",
         link: "https://www.mercadolivre.com.br/micro-ondas-electrolux-36l-cor-inox-efficient-com-descongelamento-assistido-me36s/p/MLB19750516?matt_event_ts=1778017574555&matt_d2id=59cf57ab-d18d-4367-a1e7-f533fac2ca83&matt_tracing_id=86e2feed-d63d-4242-a3ef-aa31cc82c157#polycard_client=recommendations_home_affiliate-profile&reco_backend=item_decorator&reco_client=home_affiliate-profile&reco_item_pos=0&source=affiliate-profile&reco_backend_type=function&reco_id=05073f77-75c6-4281-a60d-c7a581f47dfe&tracking_id=6a3b7150-ec21-4f7f-8a45-651f453bba05&wid=MLB3640145261&sid=recos&c_id=/home/card-featured/element&c_uid=db3609c4-eeea-4236-b62d-a00c56de7800"
     },
+    {
+        imagem: "img/imagem_2026-05-12_143619144.png",
+        nome: "Kit Enxoval Lisboa",
+        link: "https://shopee.com.br/product/699706041/42864344384?d_id=5133c&uls_trackid=55kl4tn801qr&utm_content=2iaHH7idr9LUDuVarke6Aad8VyTm"
+    
+    }
 ];
 
 
