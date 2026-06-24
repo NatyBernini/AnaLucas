@@ -1,0 +1,27 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Build
+dist/
+build/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Audio/assets (if you don't want large files tracked)
+# Uncomment if you prefer not to include media in git
+# audio/
+# img/

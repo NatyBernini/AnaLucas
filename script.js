@@ -64,11 +64,7 @@ const presentes = [
         nome: "Porta Queijo Queijeira Madeira Bambu Com Tampa 19cm X 9cm Em Acrílico Mesa Posta",
         imagem: "img/12.png",
         link: "https://s.shopee.com.br/1LcLq1xxHm"
-    },                    {
-        nome: "Garrafa Térmica Termometro Digital 1L Café Chá Nórdica Com Cabo Madeira",
-        imagem: "img/13.png",
-        link: "https://s.shopee.com.br/3LNQDixV1a"
-    },                   {
+    },                                       {
         nome: "Jogo de Taças de Cerveja Floripa com 6 peças 300ml",
         imagem: "img/14.png",
         link: "https://s.shopee.com.br/6L11nFrF7u"
@@ -118,11 +114,7 @@ const presentes = [
         imagem: "img/23.png",
         link: "https://s.shopee.com.br/3g0GcY9ocb"
     },
-                                         {
-        nome: "Grill Sanduicheira Cadence SAN400 Elétrica Chapa Misteira Tostex Tostequeira Hambúrguer Click 127v",
-        imagem: "img/24.png",
-        link: "https://s.shopee.com.br/8V5WNRmXjA"
-    },
+                                         
                                              {
         nome: "Liquidificador Philco 1400W 3L 12 Velocidades Inox PLQ2100PI",
         imagem: "img/25.png",
@@ -165,7 +157,7 @@ const presentes = [
     },
     {
         nome: "Jogo de Assadeiras Tramontina Brasil em Alumínio com Revestimento Antiaderente Starflon Max 3 Peças",
-        imagem: "img/32.png",
+        imagem: "img/33.png",
         link: "https://s.shopee.com.br/1qYcSBq6nd"
     },
     {
@@ -367,16 +359,111 @@ const presentes = [
     },
         {
         imagem: "img/73.png",
-nome: "_",
+        nome: "Tapete Bolinha KIT 4 Unidades Microfibra Banheiro ",
         link: "https://s.shopee.com.br/2VojjWuEft"
+    },
+    {
+        nome: "Cobre Leito Queen 3 Peças Bordado 200 Fios Decor",
+        imagem: "img/75.png",
+        link: "https://www.mercadolivre.com.br/cobre-leito-queen-3-pecas-bordado-200-fios-decor/up/MLBU3800957991?pdp_filters=item_id%3AMLB4481820749&matt_tool=38524122&ua=dxPXRVQ67p-wyoVeTuODbhsAc9OglR7qr23UH7FiA01zYc0#origin=whatsapp&sid=whatsapp&wid=MLB4481820749"
+    },
+    {
+        nome: "Jogo De Talheres Tramontina Churrasco Jumbo 12 Peças",
+        imagem: "img/76.png",
+        link: "https://s.shopee.com.br/2LW9Avm1t3",
+    },
+    {
+        nome: "Jogo 6 Copos De Vidro Canelado Cameratta Agua Suco 420ml",
+        imagem: "img/77.png",
+        link: "https://www.mercadolivre.com.br/jogo-6-copos-de-vidro-canelado-cameratta-agua-suco-420ml/up/MLBU3216811619?pdp_filters=item_id%3AMLB4085176731&matt_event_ts=1782173893929&matt_d2id=ee732b9b-7378-486e-a56b-a1fa249da953&matt_tracing_id=fa66a0d0-7ee7-4e92-aca3-a378e27c6fcf#polycard_client=recommendations_home_affiliate-profile&wid=MLB4085176731&sid=recos&reco_backend=item_decorator&reco_client=home_affiliate-profile&reco_item_pos=0&source=affiliate-profile&reco_backend_type=function&reco_id=6676044d-02f2-4083-853e-c44a2ce04200&tracking_id=c07f59a1-6284-43cc-9fb6-eb74075fe9ba&c_id=/home/card-featured/element&c_uid=a006ce8a-9f4e-4f32-bc86-6bdc4e2eb551",
+    },
+    {
+        nome: "Conjunto 7 Peças Bowls de Sobremesa Vidro Premium Luxo Gourmet",
+        imagem: "img/78.png",
+        link: "https://s.shopee.com.br/8pjeMuFba4",
+    },
+    {
+        nome: "Batedeira Planetária Philco PBP770PI Turbo Inox 775W 127V",
+        imagem: "img/79.png",
+        link: "https://www.amazon.com.br/Batedeira-Planet%C3%A1ria-Philco-PBP770PI-Turbo/dp/B0CBQQXN83/ref=asc_df_B0CBQQXN83?mcid=017d6d787c54327fb33ec54cc13f14f5&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=14620842998151714805&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101200&hvtargid=pla-2246932172525&psc=1&hvocijid=14620842998151714805-B0CBQQXN83-&hvexpln=0&language=pt_BR",
+    },
+    {
+        nome: "Filtro De Barro Completo com Bóia Torneira e Vela Tripla Ação Capacidade Total 6 Litros",
+        imagem: "img/80.png",
+        link: "https://www.mercadolivre.com.br/filtro-de-barro-completo-com-boia-torneira-e-vela-tripla-aco-capacidade-total-6-litros/p/MLB39438009?pdp_filters=item_id:MLB7010900914&matt_tool=34581868&matt_internal_campaign_id=348903500&matt_word=&matt_source=google&matt_campaign_id=22883155151&matt_ad_group_id=186212965653&matt_match_type=&matt_network=g&matt_device=c&matt_creative=776860492684&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5309509112&matt_product_id=MLB7010900914&matt_product_partition_id=2442087809969&matt_target_id=aud-2489285027925:pla-2442087809969&cq_src=google_ads&cq_cmp=22883155151&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22883155151&gbraid=0AAAAAD93qcBjuAEbmh50WzTVaUqWQJptZ&gclid=CjwKCAjw3ejRBhAdEiwADkqPnzYwZJ39nfL6u5irw11C24WwjjwKSLpLh3qfbf6G7PFN1h96HA5sLRoC2WoQAvD_BwE",
+    },
+    {
+        nome: "Conjunto Com 6 Pratos Rasos Roma Ravenna Branco Porto Brasil",
+        imagem: "img/81.png",
+        link: "https://www.mercadolivre.com.br/conjunto-com-6-pratos-rasos-roma-ravenna-branco-porto-brasil/p/MLB23962872?pdp_filters=item_id%3AMLB3717539240&gallery_type=horizontal&sizeForPhoto=416&pdp_filters=official_store%3A2990#polycard_client%3Drecommendations_recoview-selleritems-eshops%26wid%3DMLB3717539240%26sid%3Drecos%26reco_backend%3Dsame-seller-odin%26reco_client%3Drecoview-selleritems-eshops%26reco_item_pos%3D1%26reco_backend_type%3Dlow_level%26reco_id%3D3a320adf-82e7-48bc-90a7-9a88fa3beec8%26tracking_id%3D704fcb67ecd452815209d25bc152ecc9%26source%3Deshops%26seller_id%3D783263962%26category_id%3DMLB191838",
+    },
+    {
+        nome: "Jogo Prato Fundo Porto Brasil Cerâmica Roma Branco Kit 6",
+        imagem: "img/82.png",
+        link: "https://www.mercadolivre.com.br/jogo-prato-fundo-porto-brasil-cermica-roma-branco-kit-6/p/MLB22303350#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=c280be4a-1fa1-4955-9d2f-315307e04c15&wid=MLB3413688127&sid=search",
+    },
+    {
+        nome: "Jogo 6 Xícaras Donna Cena Inglesa 180ml + 6 Pires - Biona Cor Azul",
+        imagem: "img/83.png",
+        link: "https://www.mercadolivre.com.br/jogo-6-xicaras-donna-cena-inglesa-180ml-6-pires-biona-cor-azul/p/MLB28766076#reviews",
+    },
+    {
+        nome: "Jogo De Panelas Cerâmica Antiaderedente 5 Peças Tramontina",
+        imagem: "img/84.png",
+        link: "https://www.mercadolivre.com.br/jogo-de-panelas-ceramica-antiaderedente-5-pecas-tramontina/up/MLBU3850256919#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=35&type=product&tracking_id=115ca403-3c0c-433d-9f1e-d127e1c28b35&wid=MLB6487765012&sid=search",
     }
+
 ];
 
 
 const container = document.getElementById('lista-presentes');
 
+function obterCategoria(nome) {
+    const nomeLower = nome.toLowerCase();
+
+    const eletrodomesticos = [
+        'elétrica', 'elétrico', 'fritadeira', 'liquidificador', 'micro-ondas', 'micro-ondas', 'multiprocessador', 'aspirador', 'eletrolux', 'electrolux', 'panel', 'panela', 'fogão', 'ventilador', 'forno', 'cafeteira'
+    ];
+    const camaMesaBanho = [
+        'lençol', 'toalha', 'travesseiro', 'cama', 'banho', 'enxoval', 'jogo americano', 'jogo de cama', 'manta', 'pano', 'tapete', 'cobre leito', 'kit enxoval', 'jogo de toalha'
+    ];
+    const cozinha = [
+        'prato', 'taça', 'travessa', 'faqueiro', 'faca', 'garfo', 'colher', 'bowl', 'jarra', 'chaleira', 'panel', 'panela', 'assadeira', 'copo', 'porta', 'espátula', 'manteigueira', 'jarra', 'saladeira', 'jogo de utensílios', 'cesta', 'porta frios', 'kit de 6', 'dispenser', 'bandeja', 'forno', 'utensílios', 'copos', 'pote', 'copo', 'taças', 'porta queijo', 'porta bolo', 'porta pães', 'escorredor', 'conjunto de utensílios', 'jogo americano', 'sousplat', 'suporte de panela', 'aparelho de fondue', 'azeiteiro', 'vinagreiro', 'balde dobrável', 'balde retrátil', 'cj 6 xícaras', 'descascador', 'jogo de talheres', 'varal', 'kit 5', 'kit 6'
+    ];
+
+    if (eletrodomesticos.some(keyword => nomeLower.includes(keyword))) {
+        return 'eletrodomesticos';
+    }
+    if (camaMesaBanho.some(keyword => nomeLower.includes(keyword))) {
+        return 'camaMesaBanho';
+    }
+    if (cozinha.some(keyword => nomeLower.includes(keyword))) {
+        return 'cozinha';
+    }
+    return 'outros';
+}
+
 function renderizarPresentes() {
-    presentes.forEach(item => {
+    const categoriaPrioridade = {
+        cozinha: 1,
+        camaMesaBanho: 2,
+        eletrodomesticos: 3,
+        outros: 4
+    };
+
+    const presentesOrdenados = [...presentes]
+        .map(item => ({ ...item, categoria: obterCategoria(item.nome) }))
+        .sort((a, b) => {
+            const prioridadeA = categoriaPrioridade[a.categoria];
+            const prioridadeB = categoriaPrioridade[b.categoria];
+
+            if (prioridadeA !== prioridadeB) {
+                return prioridadeA - prioridadeB;
+            }
+            return a.nome.localeCompare(b.nome, 'pt-BR', { sensitivity: 'base' });
+        });
+
+    presentesOrdenados.forEach(item => {
         const card = document.createElement('div');
         card.className = 'card-presente';
 
@@ -440,5 +527,43 @@ function copiarPix() {
         setTimeout(() => { msg.style.display = 'none'; }, 2000);
     });
 }
+
+function atualizarContador() {
+    const destino = new Date('2026-10-24T00:00:00');
+    const agora = new Date();
+    const diff = destino - agora;
+    const contador = document.getElementById('contador-regressivo');
+
+    if (!contador) return;
+
+    if (diff <= 0) {
+        contador.innerHTML = '<div class="contador-final">O grande dia chegou! 🎉</div>';
+        clearInterval(intervaloContador);
+        return;
+    }
+
+    const dias = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const horas = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutos = Math.floor((diff / (1000 * 60)) % 60);
+    const segundos = Math.floor((diff / 1000) % 60);
+
+    contador.innerHTML = `
+        <div class="contador-card"><strong>${dias}</strong><span>Dias</span></div>
+        <div class="contador-card"><strong>${String(horas).padStart(2, '0')}</strong><span>Horas</span></div>
+        <div class="contador-card"><strong>${String(minutos).padStart(2, '0')}</strong><span>Minutos</span></div>
+        <div class="contador-card"><strong>${String(segundos).padStart(2, '0')}</strong><span>Segundos</span></div>
+    `;
+}
+
+let intervaloContador = null;
+
+function iniciarContador() {
+    atualizarContador();
+    intervaloContador = setInterval(atualizarContador, 1000);
+}
+
 // Inicia a renderização ao carregar a página
-document.addEventListener('DOMContentLoaded', renderizarPresentes);
+document.addEventListener('DOMContentLoaded', () => {
+    renderizarPresentes();
+    iniciarContador();
+});
