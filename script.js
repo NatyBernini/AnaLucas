@@ -411,6 +411,11 @@ const presentes = [
         nome: "Jogo De Panelas Cerâmica Antiaderedente 5 Peças Tramontina",
         imagem: "img/84.png",
         link: "https://www.mercadolivre.com.br/jogo-de-panelas-ceramica-antiaderedente-5-pecas-tramontina/up/MLBU3850256919#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=35&type=product&tracking_id=115ca403-3c0c-433d-9f1e-d127e1c28b35&wid=MLB6487765012&sid=search",
+    },
+    {
+        nome: "Echo Dot",
+        imagem: "img/86.png",
+        link: "https://www.amazon.com.br/Echo-Dot-4%C2%AA-gera%C3%A7%C3%A3o-Cor-Azul/dp/B09B8QFYZ2/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.rwZyeRKjgLquiD8CU9I9U3_GaUxg-d5BbEBB7PiQZLaQAt2UXG1y5NL4xeaFP9KyiU9CGyTC1V-8H6dsZyDfiSB5izx3keZEP2iEkaN-xcJgipitQQeroDytjj-pcbQnzjfMAWwWj4ERBs8kP36pkwCm2XbcEZsb0QZp8-PpAwAtcqJkDKXKqxy9CxIt91bPNza_M4sSa7P8KcYQ2Lxxn2rsv6Ftv1I2YaRg-kekWv28m-pvdC6EeDhVpTCK6spFO96KaWlrEgDZjCE0n924kthaC7V52yyfYT49kvQzLv8.nHJ9L9xMDWWJTwtaE1AcuIjRd1gw1Q9m1TyuGWhKru8&dib_tag=se&keywords=alexa&qid=1783174573&sr=8-1&th=1",
     }
 
 ];
