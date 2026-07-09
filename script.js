@@ -448,6 +448,37 @@ function obterCategoria(nome) {
     return 'outros';
 }
 
+const carrosselImagens = Array.from({ length: 92 }, (_, i) => ({
+    src: `imgPre/AnaLuizaLucasPRe (${i + 1}).jpg`,
+    alt: `Foto do casal ${i + 1}`
+}));
+
+let intervaloCarrossel = null;
+let carrosselPausado = false;
+let overlayIndex = 0;
+
+function renderizarCarrossel() {
+    const track = document.querySelector('.carrossel-track');
+    const indicadoresContainer = document.querySelector('.carrossel-indicators');
+    if (!track || !indicadoresContainer) return;
+
+    track.innerHTML = '';
+    indicadoresContainer.innerHTML = '';
+
+    carrosselImagens.forEach((foto, index) => {
+        const slide = document.createElement('div');
+        slide.className = 'carrossel-slide';
+        slide.innerHTML = `<img src="${foto.src}" alt="${foto.alt}">`;
+        track.appendChild(slide);
+
+        const botao = document.createElement('button');
+        botao.className = 'carrossel-indicator';
+        botao.dataset.slide = index;
+        botao.setAttribute('aria-label', `Slide ${index + 1}`);
+        indicadoresContainer.appendChild(botao);
+    });
+}
+
 function renderizarPresentes() {
     const categoriaPrioridade = {
         cozinha: 1,
@@ -486,8 +517,132 @@ function renderizarPresentes() {
     });
 }
 
+function iniciarCarrossel() {
+    const track = document.querySelector('.carrossel-track');
+    const indicadores = document.querySelectorAll('.carrossel-indicator');
+    const slides = document.querySelectorAll('.carrossel-slide');
+    if (!track || slides.length === 0) return;
+
+    let slideAtual = 0;
+    const totalSlides = slides.length;
+
+    function atualizarPosicao(index) {
+        track.style.transform = `translateX(-${index * 100}%)`;
+        indicadores.forEach((botao, idx) => {
+            botao.classList.toggle('active', idx === index);
+        });
+    }
+
+    function avancarSlide() {
+        slideAtual = (slideAtual + 1) % totalSlides;
+        atualizarPosicao(slideAtual);
+    }
+
+    function pausarCarrossel() {
+        if (intervaloCarrossel) {
+            clearInterval(intervaloCarrossel);
+            intervaloCarrossel = null;
+            carrosselPausado = true;
+        }
+    }
+
+    function retomarCarrossel() {
+        if (!intervaloCarrossel) {
+            intervaloCarrossel = setInterval(avancarSlide, 2500);
+            carrosselPausado = false;
+        }
+    }
+
+    if (indicadores.length === totalSlides) {
+        indicadores.forEach((botao) => {
+            botao.addEventListener('click', () => {
+                slideAtual = Number(botao.dataset.slide);
+                atualizarPosicao(slideAtual);
+                if (!carrosselPausado) {
+                    clearInterval(intervaloCarrossel);
+                    intervaloCarrossel = setInterval(avancarSlide, 2500);
+                }
+            });
+        });
+    }
+
+    const overlay = criarCarrosselLightbox();
+    const overlayImage = overlay.querySelector('.carrossel-overlay-image');
+    const overlayPrev = overlay.querySelector('.overlay-nav-button.prev');
+    const overlayNext = overlay.querySelector('.overlay-nav-button.next');
+
+    function mostrarOverlay(index) {
+        overlayIndex = index;
+        const img = slides[index].querySelector('img');
+        if (!img) return;
+
+        overlayImage.src = img.src;
+        overlayImage.alt = img.alt;
+        overlay.classList.add('active');
+        pausarCarrossel();
+    }
+
+    function fecharOverlay() {
+        overlay.classList.remove('active');
+        if (carrosselPausado) {
+            retomarCarrossel();
+        }
+    }
+
+    slides.forEach((slide, index) => {
+        const img = slide.querySelector('img');
+        if (!img) return;
+
+        slide.style.cursor = 'zoom-in';
+        slide.addEventListener('click', () => {
+            mostrarOverlay(index);
+        });
+    });
+
+    overlayPrev.addEventListener('click', (event) => {
+        event.stopPropagation();
+        overlayIndex = (overlayIndex + totalSlides - 1) % totalSlides;
+        mostrarOverlay(overlayIndex);
+    });
+
+    overlayNext.addEventListener('click', (event) => {
+        event.stopPropagation();
+        overlayIndex = (overlayIndex + 1) % totalSlides;
+        mostrarOverlay(overlayIndex);
+    });
+
+    overlay.addEventListener('click', (event) => {
+        if (event.target === overlay || event.target.classList.contains('close-overlay')) {
+            fecharOverlay();
+        }
+    });
+
+    atualizarPosicao(slideAtual);
+    retomarCarrossel();
+}
+
+function criarCarrosselLightbox() {
+    const overlay = document.createElement('div');
+    overlay.className = 'carrossel-overlay';
+    overlay.innerHTML = `
+        <div class="carrossel-overlay-content">
+            <button class="close-overlay" aria-label="Fechar imagem">
+                &times;
+            </button>
+            <button class="overlay-nav-button prev" aria-label="Foto anterior">
+                &#10094;
+            </button>
+            <button class="overlay-nav-button next" aria-label="Próxima foto">
+                &#10095;
+            </button>
+            <img src="" alt="" class="carrossel-overlay-image">
+        </div>
+    `;
+    document.body.appendChild(overlay);
+    return overlay;
+}
+
 const musica = document.getElementById('musica-tema');
-const btnAudio = document.getElementById('btn-audio');
 const audioIcon = document.getElementById('audio-icon');
 const volumeSlider = document.getElementById('volume-control');
 
@@ -570,5 +725,7 @@ function iniciarContador() {
 // Inicia a renderização ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {
     renderizarPresentes();
+    renderizarCarrossel();
     iniciarContador();
+    iniciarCarrossel();
 });
