@@ -593,10 +593,7 @@ function iniciarCarrossel() {
         const img = slide.querySelector('img');
         if (!img) return;
 
-        slide.style.cursor = 'zoom-in';
-        slide.addEventListener('click', () => {
-            mostrarOverlay(index);
-        });
+        slide.style.cursor = 'default';
     });
 
     overlayPrev.addEventListener('click', (event) => {

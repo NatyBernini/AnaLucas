@@ -17,7 +17,8 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 40px 20px; /* Reduzi um pouco o padding */
+    padding: 600px 20px 20px; /* espaço reservado para o carrossel hero */
+    position: relative;
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Sombra leve no header */
 }
@@ -41,7 +42,9 @@ header > .tag-container2 {
 
 /* --- ESTILOS DA TAG NO HEADER --- */
 .tag-container {
-    margin-bottom: 10px;
+    position: static;
+    margin: 0 auto 18px;
+    z-index: 4;
 }
 
 .tag-container2 {
@@ -49,12 +52,18 @@ header > .tag-container2 {
 }
 
 .carrossel-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
-    max-width: 680px;
-    margin: 0 auto 30px;
+    max-width: none;
+    height: 560px;
+    margin: 0 auto;
     overflow: hidden;
-    border-radius: 18px;
+    border-radius: 0 0 18px 18px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    z-index: 0;
 }
 
 .carrossel-track {
@@ -77,11 +86,137 @@ header > .tag-container2 {
 }
 
 .carrossel-slide img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* hero background behavior */
     display: block;
 }
+
+/* Header overlay elements (monograma, nome e contador) */
+.tag-container .mono {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    z-index: 4;
+    width: 70px;
+    height: auto;
+}
+
+.tag-container2 .names {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    max-width: 290px;
+    width: 42%;
+}
+
+#contador-regressivo {
+    /* moved to flow below the carousel; header-specific styling uses .header-countdown */
+}
+
+/* Hero overlay central content (date, publish button, and countdown) */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none; /* allow clicks only on interactive children */
+    z-index: 3;
+}
+
+.hero-center {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.hero-date {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    opacity: 0.98;
+    text-transform: none;
+    margin: 0;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.7);
+}
+
+.btn-publicar {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.6);
+    padding: 12px 24px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Header-specific countdown presentation (overlay on carousel) */
+.hero-overlay .header-countdown {
+    position: absolute;
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 22px;
+    align-items: center;
+    padding: 0;
+    width: auto;
+    opacity: 1;
+    pointer-events: none;
+    background: transparent;
+    bottom: auto;
+}
+
+.hero-overlay .header-countdown .contador-card {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    min-width: 70px;
+    flex: 0 1 auto;
+    width: auto;
+    max-width: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+}
+
+.hero-overlay .header-countdown .contador-card strong {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+    text-shadow: 0 5px 18px rgba(0, 0, 0, 0.65);
+}
+
+.hero-overlay .header-countdown .contador-card span {
+    color: rgba(255,255,255,0.95);
+    font-size: 0.74rem;
+    display: block;
+    margin-top: 5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 
 .carrossel-overlay {
     position: fixed;
@@ -166,11 +301,7 @@ header > .tag-container2 {
 }
 
 .carrossel-indicators {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    padding: 14px 0 10px;
-    background: #fff;
+    display: none;
 }
 
 .carrossel-indicator {
@@ -179,13 +310,13 @@ header > .tag-container2 {
     border-radius: 999px;
     border: none;
     background: #ddd;
-    cursor: pointer;
+    cursor: default;
     transition: background 0.3s;
 }
 
 .carrossel-indicator.active,
 .carrossel-indicator:hover {
-    background: var(--primary-color);
+    background: #ddd;
 }
 
 @media (max-width: 900px) {
@@ -208,11 +339,11 @@ header > .tag-container2 {
 }
 
 .tag-container .tag-imagem {
-    max-width: 60px; /* Aumenta a imagem menor (mono) um pouco */
+    max-width: 280px; /* Aumenta ainda mais o monograma */
 }
 
 .tag-container2 .tag-imagem {
-    max-width: 380px; /* Mantém a imagem maior grande */
+    max-width: 520px; /* Aumenta o logo de nome */
 }
 /* -------------------------------- */
 
@@ -362,9 +493,29 @@ footer {
 }
 
 .igreja-ilustracao {
-    max-width: 320px;    /* Tamanho da imagem à esquerda */
+    max-width: 520px;    /* Aumentado conforme solicitado */
     height: auto;
     border-radius: 8px;  /* Leve arredondada nos cantos */
+}
+
+@media (max-width: 900px) {
+    header { padding-top: 360px; }
+    .carrossel-container { height: 360px; }
+    .hero-overlay { height: 360px; }
+    .tag-container .mono { top: 10px; width: 48px; }
+    .hero-center { top: 18px; }
+    header #contador-regressivo { bottom: 18px; }
+}
+
+@media (max-width: 600px) {
+    header { padding-top: 280px; }
+    .carrossel-container { height: 280px; }
+    .hero-overlay { height: 280px; }
+    .hero-center { top: 120px; }
+    header #contador-regressivo { bottom: 12px; gap: 10px; }
+    header #contador-regressivo .contador-card strong { font-size: 18px; }
+    header #contador-regressivo .contador-card span { font-size: 0.72rem; }
+    .btn-publicar { padding: 10px 18px; }
 }
 
 .igreja-info h3 {
@@ -639,7 +790,7 @@ footer {
     }
 
     .tag-container .tag-imagem {
-        max-width: 40px;
+        max-width: 120px;
     }
 
     .tag-container2 .tag-imagem {
@@ -931,10 +1082,10 @@ footer {
     background: #f6f1eb;
     border-radius: 12px;
     padding: 14px 18px;
-    flex: 0 0 calc(50% - 7px);
-    width: calc(50% - 7px);
-    max-width: calc(50% - 7px);
-    min-width: 0;
+    flex: 0 1 auto;
+    width: auto;
+    max-width: none;
+    min-width: 68px;
     text-align: center;
     box-sizing: border-box;
 }
