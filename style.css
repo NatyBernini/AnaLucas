@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&display=swap');
+
 :root {
     --primary-color: #a89078;
     --text-dark: #333;
@@ -202,7 +204,7 @@ header > .tag-container2 {
 .hero-overlay .header-countdown .contador-card strong {
     font-size: 30px;
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant', serif;
     line-height: 1.05;
     letter-spacing: 0.02em;
     text-shadow: 0 5px 18px rgba(0, 0, 0, 0.65);
@@ -348,7 +350,7 @@ header > .tag-container2 {
 /* -------------------------------- */
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant', serif;
     margin-bottom: 5px;
     font-style: italic;
     color: #4a4a4a;
@@ -471,7 +473,7 @@ footer {
     text-align: center;
     padding: 40px;
     margin-top: 40px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant', serif;
     font-size: 1.2rem;
     background-color: #fff;
 }
@@ -519,7 +521,7 @@ footer {
 }
 
 .igreja-info h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant', serif;
     font-size: 1.5rem;
     color: var(--primary-color);
     margin-bottom: 10px;
@@ -890,7 +892,7 @@ footer {
 }
 
 .entrega-titulo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant', serif;
     font-size: 1.2rem;
     color: var(--primary-color);
     margin-bottom: 10px;
@@ -1112,16 +1114,9 @@ footer {
     font-size: 1rem;
 }
 
-/* Detalhe decorativo opcional */
+/* Detalhe decorativo opcional removido: coração e linha eliminados */
 .mensagem-content::after {
-    content: "♥";
-    color: #d4a373; /* Um tom de dourado/nude que combina com casamentos */
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    padding: 0 10px;
+    content: none;
 }
 
 /* Correções de responsividade após os estilos base */
@@ -1194,7 +1189,7 @@ footer {
 }
 
 .assinatura {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant', serif;
     font-size: 1.2rem !important;
     margin-top: 30px;
     color: #333 !important;
