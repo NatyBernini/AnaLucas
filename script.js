@@ -388,11 +388,6 @@ const presentes = [
         link: "https://www.amazon.com.br/Batedeira-Planet%C3%A1ria-Philco-PBP770PI-Turbo/dp/B0CBQQXN83/ref=asc_df_B0CBQQXN83?mcid=017d6d787c54327fb33ec54cc13f14f5&tag=googleshopp00-20&linkCode=df0&hvadid=709870389015&hvpos=&hvnetw=g&hvrand=14620842998151714805&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101200&hvtargid=pla-2246932172525&psc=1&hvocijid=14620842998151714805-B0CBQQXN83-&hvexpln=0&language=pt_BR",
     },
     {
-        nome: "Filtro De Barro Completo com Bóia Torneira e Vela Tripla Ação Capacidade Total 6 Litros",
-        imagem: "img/80.png",
-        link: "https://www.mercadolivre.com.br/filtro-de-barro-completo-com-boia-torneira-e-vela-tripla-aco-capacidade-total-6-litros/p/MLB39438009?pdp_filters=item_id:MLB7010900914&matt_tool=34581868&matt_internal_campaign_id=348903500&matt_word=&matt_source=google&matt_campaign_id=22883155151&matt_ad_group_id=186212965653&matt_match_type=&matt_network=g&matt_device=c&matt_creative=776860492684&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5309509112&matt_product_id=MLB7010900914&matt_product_partition_id=2442087809969&matt_target_id=aud-2489285027925:pla-2442087809969&cq_src=google_ads&cq_cmp=22883155151&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22883155151&gbraid=0AAAAAD93qcBjuAEbmh50WzTVaUqWQJptZ&gclid=CjwKCAjw3ejRBhAdEiwADkqPnzYwZJ39nfL6u5irw11C24WwjjwKSLpLh3qfbf6G7PFN1h96HA5sLRoC2WoQAvD_BwE",
-    },
-    {
         nome: "Conjunto Com 6 Pratos Rasos Roma Ravenna Branco Porto Brasil",
         imagem: "img/81.png",
         link: "https://www.mercadolivre.com.br/conjunto-com-6-pratos-rasos-roma-ravenna-branco-porto-brasil/p/MLB23962872?pdp_filters=item_id%3AMLB3717539240&gallery_type=horizontal&sizeForPhoto=416&pdp_filters=official_store%3A2990#polycard_client%3Drecommendations_recoview-selleritems-eshops%26wid%3DMLB3717539240%26sid%3Drecos%26reco_backend%3Dsame-seller-odin%26reco_client%3Drecoview-selleritems-eshops%26reco_item_pos%3D1%26reco_backend_type%3Dlow_level%26reco_id%3D3a320adf-82e7-48bc-90a7-9a88fa3beec8%26tracking_id%3D704fcb67ecd452815209d25bc152ecc9%26source%3Deshops%26seller_id%3D783263962%26category_id%3DMLB191838",
