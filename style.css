@@ -14,6 +14,12 @@ body {
     background-color: var(--bg-light); /* Fundo limpo */
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -51,7 +57,18 @@ header > .tag-container2 {
 }
 
 .tag-container2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.tag-container2 .names {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    z-index: 4;
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .carrossel-container {
@@ -104,16 +121,7 @@ header > .tag-container2 {
     z-index: 4;
     width: 70px;
     height: auto;
-}
-
-.tag-container2 .names {
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 3;
-    max-width: 290px;
-    width: 42%;
+    margin: 0 auto;
 }
 
 #contador-regressivo {
@@ -479,6 +487,20 @@ footer {
     background-color: #fff;
 }
 
+.estilo-banner {
+    width: min(920px, 100%);
+    max-width: 100%;
+    margin: 0 auto 26px;
+}
+
+.estilo-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
 /* --- LAYOUT DA IGREJA LADO A LADO --- */
 .igreja-container {
     display: flex;
@@ -500,8 +522,10 @@ footer {
     max-width: 480px;
     width: 100%;
     height: auto;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background: transparent;
 }
 
 @media (max-width: 900px) {
@@ -585,7 +609,22 @@ footer {
 }
 
 .mensagem-content p {
-    text-align: left;
+    text-align: justify;
+    text-align-last: left;
+    -moz-text-align-last: left;
+    hyphens: auto;
+    word-break: keep-all;
+}
+
+.mensagem-content,
+.mensagem-content p,
+.mensagem-boas-vindas p,
+.mensagem-content .mensagem-enfase,
+.mensagem-content .assinatura {
+    text-align: justify;
+    text-align-last: left;
+    -moz-text-align-last: left;
+    hyphens: auto;
 }
 
 .mensagem-imagem-wrapper {
@@ -691,7 +730,7 @@ footer {
         max-width: 420px;
         width: 100%;
         margin: 0 auto;
-        text-align: center;
+        text-align: justify;
     }
 
     .mensagem-content::before {
@@ -699,7 +738,7 @@ footer {
     }
 
     .mensagem-content p {
-        text-align: center;
+        text-align: justify;
         margin: 0 auto;
     }
 
@@ -759,7 +798,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding: 18px 16px;
-        text-align: center;
+        text-align: left;
         max-width: 360px;
         width: 100%;
         margin: 0 auto;
@@ -771,7 +810,7 @@ footer {
     .mensagem-content .assinatura {
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: left;
     }
 
     .mensagem-content::before {
@@ -783,7 +822,7 @@ footer {
     }
 
     .mensagem-content p {
-        text-align: center;
+        text-align: justify;
         margin-left: 0;
     }
 
@@ -792,7 +831,7 @@ footer {
     .mensagem-content .mensagem-enfase,
     .mensagem-content .assinatura,
     .contador-regressivo {
-        text-align: center;
+        text-align: justify;
     }
 
     .inicio {
@@ -912,11 +951,8 @@ footer {
 
 .entrega-titulo {
     font-family: 'Cormorant', serif;
-    font-size: 1.2rem;
     color: var(--primary-color);
-    margin-bottom: 10px;
-    font-style: italic;
-}
+    margin-bottom: 10px;}
 
 .entrega-box p {
     margin: 4px 0;
