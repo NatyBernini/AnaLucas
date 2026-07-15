@@ -521,8 +521,8 @@ footer {
 }
 
 .igreja-ilustracao {
-    max-width: 480px;
-    width: 100%;
+    max-width: 720px;
+    width: min(100%, 720px);
     height: auto;
     border-radius: 0;
     box-shadow: none;
@@ -553,7 +553,6 @@ footer {
 .igreja-info h3 {
     font-family: 'Cormorant', serif;
     font-size: 1.5rem;
-    color: var(--primary-color);
     margin-bottom: 10px;
 }
 
@@ -877,7 +876,7 @@ footer {
     }
     
     .igreja-ilustracao {
-        max-width: 180px;
+        max-width: 300px;
     }
 
     .btn-maps {
@@ -951,7 +950,6 @@ footer {
 
 .entrega-titulo {
     font-family: 'Cormorant', serif;
-    color: var(--primary-color);
     margin-bottom: 10px;}
 
 .entrega-box p {
