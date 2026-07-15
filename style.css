@@ -949,13 +949,13 @@ footer {
 }
 
 .entrega-titulo {
-    font-family: 'Cormorant', serif;
+    font-family: 'Cormorant';
     margin-bottom: 10px;}
 
 .entrega-box p {
     margin: 4px 0;
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 1rem;
+    color: #000000;
 }
 
 /* Ajuste no subtítulo da lista para dar respiro */
@@ -994,7 +994,7 @@ footer {
 
 #pix-chave {
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #333;
 }
 
@@ -1113,7 +1113,6 @@ footer {
     width: 420px;
     height: 100%;
     transform: translateY(-50%);
-    background: url('img/lirio.png') no-repeat left center;
     background-size: contain;
     opacity: 0.35;
     pointer-events: none;
