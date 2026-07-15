@@ -503,31 +503,93 @@ footer {
     box-shadow: 0 20px 45px rgba(0,0,0,0.12);
 }
 
-/* --- LAYOUT DA IGREJA LADO A LADO --- */
-.igreja-container {
-    display: flex;
-    justify-content: center;
-    margin: 30px auto 48px;
-    padding: 0 20px;
+/* ===== Seção ===== */
+
+.cerimonia{
+    padding:20px 20px;
 }
 
-.igreja-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    max-width: 960px;
-    width: 100%;
-    text-align: left;
+/* ===== Título ===== */
+
+.titulo-cerimonia{
+    font-family:'Cormorant',serif;
+    font-size:2.8rem;
+    font-weight:500;
+    text-align:center;
+
+    margin:0 0 0px 0;
+    padding:0;
 }
 
-.igreja-ilustracao {
-    max-width: 720px;
-    width: min(100%, 720px);
-    height: auto;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-    background: transparent;
+/* ===== Container ===== */
+
+.igreja-container{
+    display:flex;
+    justify-content:center;
+
+    margin:0;
+    padding:0;
+}
+
+/* ===== Conteúdo ===== */
+
+.igreja-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+
+    max-width:900px;
+    width:100%;
+}
+
+/* ===== Imagem ===== */
+
+.igreja-ilustracao{
+    width:320px;
+    max-width:100%;
+    height:auto;
+
+    display:block;
+
+    margin:0;
+    padding:0;
+}
+
+/* ===== Informações ===== */
+
+.igreja-info{
+    flex:1;
+}
+
+.igreja-info p{
+    margin:12px 0;
+    line-height:1.6;
+}
+
+.endereco{
+    font-style:italic;
+}
+
+/* ===== Responsivo ===== */
+
+@media (max-width:768px){
+
+    .igreja-wrapper{
+        flex-direction:column;
+        text-align:center;
+        gap:25px;
+    }
+
+    .igreja-ilustracao{
+        width:260px;
+    }
+
+    .titulo-cerimonia{
+        font-size:2.3rem;
+        margin-bottom:20px;
+    }
+
 }
 
 @media (max-width: 900px) {
