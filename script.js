@@ -211,11 +211,6 @@ const presentes = [
         link: "https://s.shopee.com.br/9Uy3b76w3B"
     },
     {
-        nome: "Belifou Kit 6 Pote hermético 200ML Pote De Vidro",
-        imagem: "img/44.png",
-        link: "https://s.shopee.com.br/2qR9f4R408"
-    },
-    {
         nome: "Aspirador de Pó Vertical com Fio Electrolux 1100W",
         imagem: "img/45.png",
         link: "https://s.shopee.com.br/qg5HRBT0l"
@@ -316,12 +311,7 @@ const presentes = [
         nome: "Varal",
         link: "https://s.shopee.com.br/1LcmKglrqi"
     },
-        {
-        imagem: "img/64.png",
-        nome: "Aparelho de Fondue",
-        link: "https://s.shopee.com.br/2g89vG4MVe"
-    }
-    ,
+    
         {
         imagem: "img/65.png",
         nome: "Kit Cama Manta Peseira de Tricot",
@@ -346,16 +336,6 @@ const presentes = [
         imagem: "img/70.png",
         nome: "Jogo de Bowl Inox 5",
         link: "https://s.shopee.com.br/8pinH01aNA"
-    },
-        {
-        imagem: "img/71.png",
-        nome: "Dispenser Detergente",
-        link: "https://s.shopee.com.br/4VZo7584T1"
-    },
-        {
-        imagem: "img/72.png",
-        nome: "Azeiteiro ou vinagreiro",
-        link: "https://s.shopee.com.br/9pbKSxHIFe"
     },
         {
         imagem: "img/73.png",
