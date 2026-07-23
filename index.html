@@ -148,6 +148,31 @@
             <button onclick="fecharModal()" class="btn-entendido">Entendi!</button>
         </div>
     </div>
+
+    <!-- Modal de Presentear via Pix -->
+    <div id="modal-presente" class="modal-overlay pix-modal-overlay" style="display:none;">
+        <div class="modal-content pix-modal-content">
+            <button type="button" class="modal-close-x" onclick="fecharModalPresente()" aria-label="Fechar">&times;</button>
+            <h3 class="pix-modal-titulo">Presentear</h3>
+            <p class="pix-modal-item" id="pix-modal-nome-presente"></p>
+            <p class="pix-modal-aviso-exemplo">
+                Este item é um exemplo do que gostaríamos de ganhar 💛 Você pode presentear com ele em mente ou simplesmente fazer o Pix no valor que desejar.
+            </p>
+
+            <div class="pix-divider">Chave Pix (CPF)</div>
+            <div class="pix-copy-wrapper">
+                <span id="pix-chave-modal">023.562.346-67</span>
+                <button type="button" onclick="copiarPixModal()" class="btn-copy">Copiar Chave</button>
+            </div>
+            <p id="msg-copiado-modal" style="display:none; color: green; font-size: 0.8rem; margin-top: 5px;">Copiado!</p>
+
+            <p class="pix-modal-instrucao">Copie a chave, faça o Pix no valor escolhido e depois nos avise pelo WhatsApp 💛</p>
+            <div class="contatos-whats">
+                <a id="link-whats-ana" href="https://wa.me/5532998208850" target="_blank" rel="noopener noreferrer" class="btn-whats">Avisar Ana</a>
+                <a id="link-whats-lucas" href="https://wa.me/553298308169" target="_blank" rel="noopener noreferrer" class="btn-whats">Avisar Lucas</a>
+            </div>
+        </div>
+    </div>
     <!-- O atributo 'loop' faz a música recomeçar quando acabar -->
     <audio id="musica-tema" loop>
         <source src="audio/music.mp3" type="audio/mp3">
