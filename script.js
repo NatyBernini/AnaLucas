@@ -695,3 +695,15 @@ document.addEventListener('DOMContentLoaded', () => {
     iniciarContador();
     iniciarCarrossel();
 });
+function mostrarPix(spanId) {
+    const span = document.getElementById(spanId);
+    const chave = span.getAttribute('data-chave');
+    span.textContent = chave;
+    span.classList.remove('pix-oculta');
+
+    // Esconde o botão "Mostrar" e exibe o botão "Copiar" correspondente
+    const btnMostrar = spanId === 'pix-chave' ? 'btn-mostrar-pix' : 'btn-mostrar-pix-modal';
+    const btnCopiar = spanId === 'pix-chave' ? 'btn-copiar-pix' : 'btn-copiar-pix-modal';
+    document.getElementById(btnMostrar).style.display = 'none';
+    document.getElementById(btnCopiar).style.display = 'inline-block';
+}

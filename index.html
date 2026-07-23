@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal do casamento de Ana Luiza e Lucas — 24/10/2026">
     <title>Lista de Presentes - Ana Luiza & Lucas</title>
     <link rel="stylesheet" href="style.css">
     <link
@@ -103,8 +104,9 @@
                 <p class="entrega-titulo" style="font-family: 'Cormorant', serif; font-size: 1.1rem;">Presente em Dinheiro (PIX)</p>
                 <p>Chave CPF:</p>
                 <div class="pix-copy-wrapper">
-                    <span id="pix-chave">142.718.076-80</span>
-                    <button onclick="copiarPix()" class="btn-copy">Copiar Chave</button> 
+                    <span id="pix-chave" class="pix-oculta" data-chave="142.718.076-80">••• Ver chave •••</span>
+                    <button onclick="mostrarPix('pix-chave')" class="btn-copy" id="btn-mostrar-pix">Ver chave </button>
+                    <button onclick="copiarPix()" class="btn-copy" id="btn-copiar-pix" style="display:none;">Copiar Chave</button>
                 </div>
                 <p id="msg-copiado" style="display:none; color: green; font-size: 0.8rem; margin-top: 5px;">Copiado!</p>
                 <!-- ... dentro da entrega-box, logo abaixo do PIX ... -->
@@ -161,8 +163,9 @@
 
             <div class="pix-divider">Chave Pix (CPF)</div>
             <div class="pix-copy-wrapper">
-                <span id="pix-chave-modal">142.718.076-80</span>
-                <button type="button" onclick="copiarPixModal()" class="btn-copy">Copiar Chave</button>
+                <span id="pix-chave-modal" class="pix-oculta" data-chave="142.718.076-80">••• Ver chave •••</span>
+                <button type="button" onclick="mostrarPix('pix-chave-modal')" class="btn-copy" id="btn-mostrar-pix-modal">Ver Chave</button>
+                <button type="button" onclick="copiarPixModal()" class="btn-copy" id="btn-copiar-pix-modal" style="display:none;">Copiar Chave</button>
             </div>
             <p id="msg-copiado-modal" style="display:none; color: green; font-size: 0.8rem; margin-top: 5px;">Copiado!</p>
 

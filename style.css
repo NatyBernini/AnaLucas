@@ -1433,3 +1433,9 @@ footer {
     width: 80px; /* Aparece ao passar o mouse */
     margin-left: 10px;
 }
+.pix-oculta {
+    color: #999;
+    font-style: italic;
+    letter-spacing: 1px;
+    cursor: default;
+}
